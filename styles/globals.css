@@ -1,0 +1,432 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eaeaea;
+  color: #444;
+}
+
+
+h1 {
+  font-size: 2.5em;
+  color: #5d5d5d;
+  text-align: center;
+  padding: 30px 0;
+  background-color: #2d2d2d;
+  color: white;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: 250px;
+  border-radius: 5px;
+  border: 3px rgb(59, 54, 50);
+
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border: 3px solid #ddd;
+}
+
+th {
+  background-color: #4487eb;
+  color: white;
+  font-size: 1.2em;
+}
+
+td {
+  background-color: #fff;
+}
+
+tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #d3d3d3;
+}
+
+ul {
+  list-style-type: square;
+  padding: 20px;
+  margin: 0;
+}
+
+li {
+  padding: 15px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+  background-color: #f2f2f2;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.update-button{
+  margin-right: 20px;
+}
+.create-button{
+  margin-top: 20px;
+   margin-left: 220px;
+}
+.form-div{
+  margin-left: 250px;
+  padding: 10px;
+
+}
+.form-div input{
+  margin-right: 10px;
+  padding: 5px;
+}  
+
+.pagination{
+
+  margin-top: 10px;
+
+
+  justify-content: center;
+
+}
+
+
+
+
+
+
+
+.image-about2{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.about-column2{
+  padding-top: 90px;
+  padding-left: 30px;
+ 
+
+}
+
+
+.background-image {
+  background-image: url("C:\Users\DELL\firstpro\src\img\istockphoto.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.home-image1{
+  background-image: url("C:\Users\DELL\firstpro\src\img\student-3500990_1920-1300x866-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 80%;
+  border-radius: 110px;
+  padding-bottom: 30px;
+
+}
+
+.fullstact-container{
+  background-image: url("C:\Users\DELL\firstpro\src\img\FullStack.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-bottom: 30px;
+  
+}
+.full{
+
+  margin-top: 50px;
+}
+.full h1{
+  text-align: center;
+  font-size: 55px;
+  border-bottom: 2px rgb(57, 117, 228);
+
+}
+
+.Home-column2{
+  padding-top: 150px;
+}
+
+.Home-column2 h1{
+  font-size: 60px;
+
+}
+.Home-column2 h4{
+  color: #fc0606;
+}
+.Home-column2 p{
+  font-size: 20px;
+}
+
+
+.home-container2{
+  background-color: #e9cccc;
+
+ padding-top: 50px;
+}
+
+
+.home-container {
+  text-align: center;
+  color: rgb(247, 248, 248);
+  padding-top: 160px;
+
+}
+
+.column-container-home1 {
+  background-color: rgb(247, 247, 247);
+  height: 480px;
+  border-radius: 8%;
+  border: 3px dashed black;
+  padding: 60px;
+  font-size: 20px;
+
+
+
+  background-color: rgb(252, 252, 252);
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+
+}
+
+@keyframes example {
+  0% {
+      background-color: red;
+      left: 0px;
+      top: 0px;
+  }
+
+  25% {
+      background-color: yellow;
+      left: 200px;
+      top: 0px;
+  }
+
+  100% {
+      background-color: rgb(0, 255, 221);
+      left: 0px;
+      top: 0px;
+  }
+
+}
+.colum-home{
+
+  background-color: #3d3333;
+}
+.colum-home h3{
+  padding-top: 30px;
+  color: #ffffff;
+}
+.colum-home p{
+  color: #fffbfb;
+  font-size: 18px;
+}
+
+
+
+
+.column-container-home2 {
+  background-color: rgb(247, 247, 247);
+  height: 480px;
+  border-radius: 8%;
+  border: 3px dashed black;
+  padding: 60px;
+  font-size: 20px;
+
+  background-color: rgb(252, 252, 252);
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+
+}
+
+.column-container-home {
+  padding-top: 40px;
+}
+
+.btn-home {
+  width: 30%;
+}
+
+.img-container-aboutus {
+  padding: 10px;
+}
+
+.banner1 {
+  display: inline-block;
+  transition: transform 0.90s ease-in-out;
+  padding: 10px;
+  font-size: 13px;
+
+
+}
+
+@keyframes bounceIn {
+  0% {
+      transform: scale(0.8);
+      
+  }
+
+  30% {
+      transform: scale(1.1);
+      
+  }
+
+}
+
+
+
+.banner1:hover {
+
+
+  background-color: rgb(224, 208, 187);
+  animation: bounceIn 0.90s ease-in-out;
+}
+
+.banner2 {
+
+  color: #8b9411;
+}
+
+.container1 {
+  background-color: rgb(112, 78, 207);
+}
+
+.button-container {
+
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.nav-item {
+  color: #ffffff;
+}
+
+.codydude {
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-container{
+  background-color: rgb(247, 247, 247);
+  height: 780px;
+  border-radius: 8%;
+  border: 3px dashed rgb(29, 77, 209);
+  padding: 60px;
+  padding-top: 80px;
+  font-size: 20px;
+}
+
+.contact-container{
+
+  padding-top: 80px;
+}
+.form-container1{
+
+  padding-left: 50px;
+  padding-top: 50px;
+
+}
+.form-container1 h4{
+  color: #dd3f3f;
+}
+.form-container1 h1{
+  font-size: 50px;
+}
+.form-container1 p{
+  color: #744d4d;
+  font-size: 18px;
+}
+
+
+
+.home-container-first{
+
+  padding-top: 30px;
+
+}
+
+.home-first-container{
+
+
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.home-container-first h4{
+  color: #fb0707;
+}
+.home-container-first h1{
+  font-size: 60px;
+
+}
+
+.image-container-home2{
+
+ 
+  background-image: url("E:\NextJS\nextprojs\public\h.1-559x1024.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  margin-left: 70px;
+  border-radius: 90px;
+}
+
+
+
+.img-axxording{
+  background-image: url("C:\Users\DELL\firstpro\src\img\vastu-direction.webp");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  
+  
+
+
+}
+.home-questioncontainer{
+
+border-bottom: 4px dashed rgb(63, 93, 160);
+border-radius: 13px;
+margin-top: 20px;
+font-size: 20px;
+
+
+
+padding: 4px;
+}
+.home-questioncontainer1 h4{
+
+
+color: #fb0707;
+
+}
+
+.home-questioncontainer1{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+.m-2{
+
+border-radius: 70px;
+}
+.home-questioncontainer1 h1{
+font-size: 55px;
+}
+
+
+
